@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{graphics}
+
+\begin{document}
+
+\begin{table}[!htbp] \centering 
+  \caption{} 
+  \label{} 
+    \resizebox{\columnwidth}{!}{
+\begin{tabular}{@{\extracolsep{5pt}}lccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{5}{c}{Dependent Variable: recidivism} \\ 
+\cline{2-6} 
+ & IV: court & IV: percJudgeSentToEM & IVs: percJudgeSentToEM, judgeAlreadyUsedEM & IV probit & IV: largeSampleEstimate \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5)\\ 
+\hline \\[-1.8ex] 
+ EM1\_pred & $-$0.112$^{**}$ &  &  &  &  \\ 
+  & (0.057) &  &  &  &  \\ 
+  & & & & & \\ 
+ EM12\_pred &  & $-$0.138 &  &  &  \\ 
+  &  & (0.093) &  &  &  \\ 
+  & & & & & \\ 
+ EM13\_pred &  &  & $-$0.158$^{*}$ &  & $-$0.158$^{*}$ \\ 
+  &  &  & (0.091) &  & (0.091) \\ 
+  & & & & & \\ 
+ EM14\_pred &  &  &  & $-$0.174$^{*}$ &  \\ 
+  &  &  &  & (0.095) &  \\ 
+  & & & & & \\ 
+
+ 
+ Constant & 92.101$^{***}$ & 91.615$^{***}$ & 91.534$^{***}$ & 91.692$^{***}$ & 91.534$^{***}$ \\ 
+  & (8.341) & (8.349) & (8.344) & (8.353) & (8.344) \\ 
+  & & & & & \\ 
+\hline \\[-1.8ex] 
+Observations & 1,503 & 1,503 & 1,503 & 1,494 & 1,503 \\ 
+R$^{2}$ & 0.168 & 0.167 & 0.167 & 0.167 & 0.167 \\ 
+Adjusted R$^{2}$ & 0.149 & 0.148 & 0.148 & 0.148 & 0.148 \\ 
+Residual Std. Error & 0.371 (df = 1469) & 0.371 (df = 1469) & 0.371 (df = 1469) & 0.372 (df = 1461) & 0.371 (df = 1469) \\ 
+F Statistic & 8.985$^{***}$ (df = 33; 1469) & 8.897$^{***}$ (df = 33; 1469) & 8.924$^{***}$ (df = 33; 1469) & 9.136$^{***}$ (df = 32; 1461) & 8.924$^{***}$ (df = 33; 1469) \\ 
+\hline 
+\hline \\[-1.8ex] 
+\end{tabular} }
+\end{table} 
+
+\end{document}
