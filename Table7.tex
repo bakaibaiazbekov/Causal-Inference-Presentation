@@ -1,0 +1,83 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{graphics}
+
+\begin{document}
+\begin{table}[!htbp] \centering 
+  \caption{} 
+  \label{} 
+\resizebox{\columnwidth}{!}{
+
+\begin{tabular}{@{\extracolsep{5pt}}lccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-4} 
+\\[-1.8ex] & \multicolumn{2}{c}{recidivism} & escapees \\ 
+ & (I) & (II) & (III) \\ 
+\\[-1.8ex] & (1) & (2) & (3)\\ 
+\hline \\[-1.8ex] 
+ EMLengthTotalPrisonRatio & $-$0.087 &  &  \\ 
+  & (0.056) &  &  \\ 
+  & & & \\ 
+ mostSeriousCrime02 - Attempted homicide & 0.079 & 0.073 & $-$0.088 \\ 
+  & (0.118) & (0.124) & (0.079) \\ 
+  & & & \\ 
+ mostSeriousCrime03 - Sexual offenses & 0.135 & 0.122 & 0.209 \\ 
+  & (0.129) & (0.127) & (0.163) \\ 
+  & & & \\ 
+ mostSeriousCrime04 - Other serious crimes & $-$0.071 & $-$0.071 & 0.172 \\ 
+  & (0.080) & (0.079) & (0.152) \\ 
+  & & & \\ 
+ mostSeriousCrime05 - Aggravated robbery & 0.007 & 0.001 & $-$0.004 \\ 
+  & (0.062) & (0.062) & (0.076) \\ 
+  & & & \\ 
+ mostSeriousCrime06 - Attempted aggravated robbery & 0.067 & 0.053 & $-$0.120 \\ 
+  & (0.107) & (0.108) & (0.104) \\ 
+  & & & \\ 
+ mostSeriousCrime07 - Robbery & 0.151 & 0.144 & $-$0.032 \\ 
+  & (0.105) & (0.105) & (0.113) \\ 
+  & & & \\ 
+ mostSeriousCrime08 - Attempted robbery & $-$0.030 & $-$0.046 & $-$0.020 \\ 
+  & (0.093) & (0.092) & (0.113) \\ 
+  & & & \\ 
+ mostSeriousCrime09 - Possession of firearms & $-$0.026 & $-$0.041 & 0.062 \\ 
+  & (0.094) & (0.093) & (0.114) \\ 
+  & & & \\ 
+ mostSeriousCrime10 - Larceny / Attempted larceny & $-$0.142 & $-$0.156 & 0.098 \\ 
+  & (0.149) & (0.142) & (0.206) \\ 
+  & & & \\ 
+ mostSeriousCrime11 - Other minor crimes & $-$0.033 & $-$0.053 & $-$0.082 \\ 
+  & (0.089) & (0.088) & (0.093) \\ 
+  & & & \\ 
+ age & $-$0.00004 & $-$0.00005 & $-$0.00001 \\ 
+  & (0.0001) & (0.0001) & (0.0001) \\ 
+  & & & \\ 
+ ageSquared & 0.000 & 0.000 & $-$0.000 \\ 
+  & (0.000) & (0.000) & (0.000) \\ 
+  & & & \\ 
+ argentine & 0.228$^{**}$ & 0.210$^{*}$ & 0.096 \\ 
+  & (0.113) & (0.123) & (0.104) \\ 
+  & & & \\ 
+ numberPreviousImprisonments & 0.119$^{**}$ & 0.132$^{***}$ & 0.135$^{***}$ \\ 
+  & (0.047) & (0.046) & (0.048) \\ 
+  & & & \\ 
+ yearOfImprisonment & $-$0.033$^{***}$ & $-$0.032$^{***}$ & $-$0.003 \\ 
+  & (0.008) & (0.008) & (0.010) \\ 
+  & & & \\ 
+ 
+ Constant & 65.583$^{***}$ & 65.105$^{***}$ & 6.985 \\ 
+  & (16.191) & (16.205) & (20.380) \\ 
+  & & & \\ 
+\hline \\[-1.8ex] 
+Observations & 386 & 386 & 386 \\ 
+R$^{2}$ & 0.209 & 0.203 & 0.106 \\ 
+Adjusted R$^{2}$ & 0.140 & 0.136 & 0.030 \\ 
+Residual Std. Error & 0.314 (df = 354) & 0.315 (df = 355) & 0.371 (df = 355) \\ 
+F Statistic & 3.018$^{***}$ (df = 31; 354) & 3.021$^{***}$ (df = 30; 355) & 1.401$^{*}$ (df = 30; 355) \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} }
+\end{table} 
+\end{document}
